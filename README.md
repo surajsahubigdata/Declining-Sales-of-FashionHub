@@ -1,46 +1,40 @@
-# Declining-Sales-of-FashionHub
+# Declining Sales of FashionHub
+## Project Overview
+A retail chain, FashionHub, is experiencing a decline in online sales. The marketing team suspects that their marketing strategies may not be reaching their target audience effectively, especially on weekends. The goal is to determine whether there's a statistically significant difference in sales between weekdays and weekends. If the weekend sales are indeed lower, FashionHub could then implement targeted strategies to boost weekend performance.
 
-# FashionHub Sales Analysis App
+## Solution Approach:
+To solve this problem, we’ll use a two-sample t-test to determine if there is a statistically significant difference in the average sales between weekdays and weekends.
 
-## Overview
-The **FashionHub Sales Analysis App** is a Streamlit application designed to analyze sales data from a retail chain, focusing on determining whether there is a significant difference in sales between weekdays and weekends. The app provides visualization tools and performs a statistical analysis to help businesses make informed marketing decisions.
+## Detailed Approach
++ **Data Ingestion**
++ **Data Preprocessing**
++ **Statistical Hypothesis Testing**
++ **Results**
++ **Interpretation and Business Recommendation**
 
-## Features
-- Upload CSV files containing sales data.
-- Visualize sales trends over time and compare average sales between weekdays and weekends.
-- Conduct a two-sample t-test to analyze the significance of sales differences.
-- Display t-test results and provide actionable business insights.
-- Option to download a summary of the analysis as a CSV file.
+## Features:
++ **Upload CSV files containing sales data**
++ **Visualize sales trends over time and compare average sales between weekdays and weekends**
++ **Conduct a two-sample t-test to analyze the significance of sales differences**
++ **Display t-test results and provide actionable business insights**
++ **Summary Download**
 
-## Requirements
-To run this app, you need to have the following installed:
-- Python 3.7 or higher
-- Streamlit
-- Pandas
-- NumPy
-- SciPy
-- Matplotlib
+## Requirements:
++ Python 3.8 or above
++ Streamlit
++ Pandas
++ Numpy
++ Scipy
++ Matplotlib
 
-You can install the required packages using pip:
+## User Interface
+![alt text](interface.PNG)
 
-```bash
-pip install streamlit pandas numpy scipy matplotlib
+## Data Visualization
+![alt text](<Data Visualization.PNG>)
 
-Getting Started
-Clone this repository or download the app script (app.py).
+## Weekdays vs Weekend sales
+![alt text](<Weekday vs Weekend sales.PNG>)
 
-Place your sales data CSV file in the same directory.
-
-Open a terminal and navigate to the directory where the app is located.
-
-Run the following command to start the Streamlit app:
-streamlit run app.py
-
-## Interface
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-
+## Conclusion/
+Using a simple two-sample t-test, FashionHub can gain insights into sales patterns between weekdays and weekends. This statistical approach allows the business to make data-driven decisions on whether to focus marketing efforts specifically on weekends, potentially boosting overall sales performance.
