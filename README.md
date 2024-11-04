@@ -36,5 +36,8 @@ To solve this problem, we’ll use a two-sample t-test to determine if there is 
 ## Weekdays vs Weekend sales
 ![alt text](<Weekday vs Weekend sales.PNG>)
 
+## Business Insights and Recommendations
+![alt text](insights.PNG)
+
 ## Conclusion/
 Using a simple two-sample t-test, FashionHub can gain insights into sales patterns between weekdays and weekends. This statistical approach allows the business to make data-driven decisions on whether to focus marketing efforts specifically on weekends, potentially boosting overall sales performance.
