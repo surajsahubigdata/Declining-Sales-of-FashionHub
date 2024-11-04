@@ -36,6 +36,7 @@ Open a terminal and navigate to the directory where the app is located.
 Run the following command to start the Streamlit app:
 streamlit run app.py
 
+## Interface
 ![alt text](image.png)
 
 ![alt text](image-1.png)
